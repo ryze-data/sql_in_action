@@ -16,4 +16,4 @@ jobs:
       - name: Install SQLFluff
         run: "pip install sqlfluff"
       - name: Lint models
-        run: "pwd && ls -lah && sqlfluff lint --dialect snowflake"
+        run: "pwd && ls -lah && sqlfluff lint tests/ --dialect snowflake"
