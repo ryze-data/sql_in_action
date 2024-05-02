@@ -1,6 +1,6 @@
 [sqlfluff]
 templater = dbt
-dialect = bigquery
+dialect = snowflake
 sql_file_exts = .sql
 
 [tool.sqlfluff.templater.jinja]
