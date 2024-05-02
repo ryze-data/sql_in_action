@@ -15,7 +15,7 @@ jobs:
             python-version: "3.12"
       - name: Install SQLFluff
         run: "pip install sqlfluff"
-      - name: Lint models
-        run: "sqlfluff lint tests/ --dialect snowflake"
       - name: Fix models
         run: "sqlfluff fix tests/ --dialect snowflake"
+      - name: Lint models
+        run: "sqlfluff lint tests/ --dialect snowflake"
