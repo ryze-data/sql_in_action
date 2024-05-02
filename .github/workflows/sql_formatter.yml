@@ -1,4 +1,4 @@
-name: Lint Models
+name: Fix Models
 
 on:
   push:
